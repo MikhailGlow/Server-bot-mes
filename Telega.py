@@ -9,7 +9,9 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
-	bot.reply_to(message, message.text + ", nigger!")
+	for i in range(10**10):
+		bot.reply_to(message, message.text + ", niga!")
+		bot.reply_to(message,"fuck you!")
 
 
 bot.infinity_polling()
